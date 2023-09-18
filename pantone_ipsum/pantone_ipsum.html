@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Pantone Ipsum</title>
+          <link rel="stylesheet" href="pantone_ipsum.css">
+     </head>
+     <body>
+          <h1>Pantone Ipsum</h1>
+          <h2>A more colorful Lorem Ipsum generator</h2>
+          <div id="main">
+          <form action="javascript:void(0);">
+               <label for="str-amount">Number of paragraphs:</label>
+               <input type="number" id="str-amount" min="1" max="20" name="str-amount">
+               <button id="generateText"> Generate </button>
+          </form>
+          <br>
+               <button id="copyAllText"> Copy Text </button>
+               <p>Click a word to copy its background hex color.</p>
+               <div id="alertDiv"></div>
+               <div class="result" id="result"></div>
+          </div>
+          <p class="info">Color list provided by <a href="https://github.com/Margaret2/pantone-colors">Margaret2</a>. Colors names are copyright of <a href="https://www.pantone.com/" target="_blank">Pantone</a>.</p>
+          <script src="pantone_ipsum.js" type="module"></script>
+          <script src="pantone_names.js" type="module"></script>
+     </body>
+</html>
