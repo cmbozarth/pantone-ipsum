@@ -1,4 +1,4 @@
-import {pantoneColors} from '/pantone_names.js';
+import {pantoneColors} from './pantone_names.js';
 let resultBox = document.getElementById("result");
 let generateBtn = document.getElementById('generateText');
 let alertDiv = document.getElementById('alertDiv');
